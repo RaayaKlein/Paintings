@@ -1,8 +1,9 @@
-# Plan:
+# Painting - Journey
 
-create app: `npx create-react-app my-app`
+#### Still in development!!
 
-#### Routing:
+This is a small project in react for my art journey. Enjoy. 
 
-* yarn add react-router-dom
-
+<img height=300 src="Captures/1.PNG"/>
+<img height=300 src="Captures/2.PNG"/>
+<img height=300 src="Captures/3.PNG"/>
