@@ -1,6 +1,6 @@
 # Painting - Journey
 
-#### Still in development!!
+### This project is Still in development
 
 This is a small project in react for my art journey. Enjoy. 
 
