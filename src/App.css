@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap");
+
+:root {
+  --primary-white: #fff;
+}
+
+.App {
+  text-align: center;
+  position: relative;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.homeBg {
+  background-image: url("../src/gallery/cover.png");
+  height: 590px;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  /* opacity: 0.5; */
+}
+
+.headerMain {
+  font-size: 50px;
+  color: white;
+  font-family: "Dancing Script" !important;
+  margin-top: 100px !important;
+}
+
+.header {
+  margin-top: 100px !important;
+}
+
+.headerbg {
+  background-color: rgb(245, 245, 245);
+  height: 100px;
+  margin-bottom: 10px;
+
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.headerTxt {
+  font-size: 35px;
+}
+
+.line {
+  background-color: white;
+  height: 2px !important;
+  width: 450px !important;
+  margin-top: 200px !important;
+  margin: 0 auto;
+}
+
+.navbar {
+  cursor: pointer;
+  background-color: mediumaquamarine;
+}
+
+.navbar-nav > li > a {
+  color: var(--primary-white) !important;
+  font-size: 20px;
+  letter-spacing: 1px;
+  margin-right: 10px;
+}
+
+.name {
+  color: white !important;
+  font-family: "Dancing Script" !important;
+}
+
+/* logo */
+.navbar-brand {
+  max-width: 17.25erm;
+  padding: 0 !important;
+}
+
+/* About me text */
+.aboutMe {
+  margin: 20px;
+  font-size: 25px;
+}
+
+/* images in the gallery */
+.galleryImg {
+  filter: brightness(100%);
+  -webkit-filter: brightness(100%);
+}
+.galleryImg:hover {
+  filter: brightness(70%);
+  -webkit-filter: brightness(70%);
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 0s ease;
+  cursor: pointer;
+}
+
+/* for gallery: */
+.btn {
+  margin: 10px;
+}
+
+/* Design for footer (depends also in the App) */
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.icons {
+  background-color: mediumaquamarine !important;
+  border-radius: 50% !important;
+  color: white !important;
+}
+
+/* Country style */
+
+.countryHeader {
+  font-weight: 300;
+}
+
+.flag {
+  position: fixed;
+  top: 10%;
+  right: 5%;
+}
+
+.details {
+  text-align: left;
+  left: 10px;
+}
+
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
